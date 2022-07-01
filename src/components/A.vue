@@ -1,27 +1,13 @@
 <template>
-  <div class="a">
-    <h2>我是A组件</h2>
-    <div>
-      {{ flag }}
-    </div>
-    <B></B>
-  </div>
+  <div class="A">A组件</div>
 </template>
 
-<script setup lang="ts">
-import B from "./B.vue";
-import { inject } from "vue";
+<script setup lang="ts"></script>
 
-let flag = inject("flag");
-</script>
-
-<style lang="less">
-html,
-body,
-.a {
+<style lang="less" scoped>
+.A {
   width: 200px;
   height: 200px;
-  background-color: green;
-  color: #fff;
+  border: 1px solid #ccc;
 }
 </style>

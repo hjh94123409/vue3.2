@@ -21,8 +21,6 @@ const changeFlag = () => {
 </script>
 
 <style lang="less">
-html,
-body,
 .b {
   width: 100px;
   height: 100px;

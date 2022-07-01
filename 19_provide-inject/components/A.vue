@@ -16,8 +16,6 @@ let flag = inject("flag");
 </script>
 
 <style lang="less">
-html,
-body,
 .a {
   width: 200px;
   height: 200px;

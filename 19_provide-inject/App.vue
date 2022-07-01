@@ -12,8 +12,6 @@ provide("flag", ref(false));
 </script>
 
 <style lang="less">
-html,
-body,
 #app {
   width: 300px;
   height: 300px;
