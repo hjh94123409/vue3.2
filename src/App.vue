@@ -10,7 +10,7 @@
     <hr />
     <div v-drag class="box">
       <div class="header"></div>
-      <div class="con">内容</div>
+      <div class="con">内容哈哈哈</div>
     </div>
   </div>
 </template>
