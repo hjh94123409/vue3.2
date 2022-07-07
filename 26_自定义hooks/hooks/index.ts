@@ -1,4 +1,6 @@
 
+import {onMounted} from 'vue'
+
 type Options = {
     el: string
 }
